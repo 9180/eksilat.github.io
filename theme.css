@@ -92,12 +92,12 @@ h4 {
 /* homepage */
 .hours{
     margin-top: 10px;
-    height: 820px;
+    height: auto;
     margin-bottom: 20px;
 }
 .admission {
     margin-top: 10px;
-    height: 820px;
+    height: auto;
     margin-bottom: 20px;
 }
 
