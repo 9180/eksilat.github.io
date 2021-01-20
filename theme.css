@@ -178,7 +178,7 @@ form body {
 }
 
 form h2 {
-	background-color: whitesmoke;
+	background-color: white;
 	color: #fff;
 	font-size: 1.1em;
 	margin: 12px;
@@ -186,10 +186,10 @@ form h2 {
 	text-transform: uppercase;
 }
 
-h2.account 				{ background-color: #09093e; }
-h2.address 				{ background-color: #09093e; }
-h2.public-profile 		{ background-color: #09093e; }		
-h2.emails 				{ background-color: #09093e; }
+h2.account 				{ background-color: darkolivegreen; }
+h2.address 				{ background-color: darkolivegreen; }
+h2.public-profile 		{ background-color: darkolivegreen; }		
+h2.emails 				{ background-color: darkolivegreen; }
 
 legend {
 	background-color: #dedede;
@@ -204,7 +204,7 @@ legend {
 }
 
 fieldset {
-	background-color: whitesmoke;
+	background-color: white;
 	border: none;
 	border-radius: 2px;
 	margin-bottom: 12px;
@@ -261,7 +261,7 @@ textarea {
 }
 
 .create_profile {
-	background-color: #09093e;
+	background-color: darkolivegreen;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
