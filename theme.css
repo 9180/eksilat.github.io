@@ -14,8 +14,17 @@
 header {
     width: 960px;
     background-color: white;
-    height: 100px;
-    margin-bottom: 0;align-self:auto 
+    height: auto;
+    margin-bottom: 0;align-self:auto;
+	
+}
+
+header img {
+	height: 100%;
+	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -37,7 +46,7 @@ p {
 }
 
 .ptext {
-	font-size: 10px;
+	font-size: 11px;
 }
 
 .menu {
@@ -125,25 +134,24 @@ h5 {
     margin-bottom: 20px;
     font-family: "PT serif", sans-serif;
     font-size: 17px;
+	
 }
 
 .side2 {
-    height: 254px;
+    height: auto;
     padding-bottom: 20px;
     margin-bottom: 20px;
     font-family: "PT serif", sans-serif;
     font-size: 17px;
-    line-height: 1.5;
-}
+    }
 
 .side3 {
-    height: 254px;
+    height: auto;
     padding-bottom: 20px;
     margin-bottom: 20px;
     font-family: "PT serif", sans-serif;
     font-size: 17px;
-    line-height: 1.5;
-}
+    }
 
 .side4 {
     height: auto;
@@ -151,9 +159,46 @@ h5 {
     margin-bottom: 20px;
     font-family: "PT serif", sans-serif;
     font-size: 17px;
+
 }
 
 /* blog end */
+/*calendar start */
+.side1a {
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "PT serif", sans-serif;
+    font-size: 17px;
+	}
+
+.side2a {
+    height: 250px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "PT serif", sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+	}
+
+.side3a {
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "PT serif", sans-serif;
+    font-size: 17px;
+    	}
+
+.side4a {
+    height:  250px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "PT serif", sans-serif;
+    font-size: 17px;
+	line-height: 1.5;
+}
+
+/*calendar end */
 
 footer {
     height: auto;
@@ -271,7 +316,7 @@ textarea {
 .instructions {
 	font-size: 75%;
 	padding-left: 167px;
-	font-style: italic;
+	font-style: sans-serif;
 }
 
 .create_profile {
