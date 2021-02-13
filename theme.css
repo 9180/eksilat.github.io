@@ -123,6 +123,10 @@ h5 {
     height: auto;
     margin-bottom: 20px;
 }
+.fancybox {
+width: 220px;
+margin: 10px;
+}
 
 /* homepage end */
 
