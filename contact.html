@@ -44,45 +44,55 @@
 			<h4>817-332-7518</h4>
 			</article>
 
-			<article class="span12">   <h2> Please reach out to us with any questions, comments or concerns here. </h2>  <form method="post" action="emailform.php" enctype="multipart/form-data">
-		<!-- START ACCOUNT FIELDS -->
-		<fieldset>
-			<ul>
-				<li>
-					<label for="first_name">First Name:</label>
-					<input type="text" id="first_name" name="first_name" class="large" required="required" placeholder="Enter your first name" />
-				</li>
-				<li>
-					<label for="last_name">Last Name:</label>
-					<input type="text" id="last_name" name="last_name" class="large" />
-				</li>
-				<li>
-					<label for="city">Phone:</label>
-					<input type="text" id="phone" name="phone" class="large" />
-				</li>
-                <li>
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" class="large" />
-				</li>
-                <li>
-					<label for="bio">Message:</label>
-					<textarea id="bio" name="bio" rows="8" cols="50"></textarea>
-				</li>
-
-			</ul>
-		</fieldset>
-		<!-- end account -->
-		
-		<fieldset>
-			<input type="submit" class="create_profile" value="Send" />
-			
-			<!-- was
-			<button type="submit" class="create_profile"><img src="check.png" alt="" />Create Account</button>
-			-->
-		</fieldset>
-	</form> 
+			<article class="span12">			
+				<div class="bg pform">
+					<div class="form">
+						<h2> Please reach out to us with any questions, comments or concerns here. </h2>
+						<form action="#" method="post" autocomplete="on">
+						<fieldset>
+                            <label for="fname">First Name:</label>
+							<input type="text" id="fname" name="fname" tabindex="1" required>
+						<br>
+							<label for="lname">Last Name:</label><input type="text" id="lname" name="lname" tabindex="2" required>
+						<br>
+							<label for="phone">Phone Number (optional):</label>				<input type="text" id="phone" name="phone" tabindex="3">
+						<br>
+							<label for="email">Email:</label><input type="text" id="email" name="email" tabindex="4">
+						<br>
+							How would you like for us to respond?
+							<br><label for="phone1"><input type="radio" id="phone1" name="respond" value="phone" tabindex="5">Phone</label>
+							<label for="email1">				<input type="radio" id="email1" name="respond" value="email" tabindex="6">Email
+							</label>
+							<label for="eap"><input type="radio" id="eap" name="respond" value="phoneandemail" tabindex="7">Phone and Email</label>
+							<br>
+						
+							<label for="subject">Subject:
+                            </label><select id="subject" name="subject" tabindex="8">
+                                <option value="Events">Events</option><option value="employee">Employee Feedback</option><option value="Education">Education</option> <option value="Other">Other</option>
+                            </select>
+                            <br>
+                            Content:
+                            <br>
+                            <textarea name="content" rows="10" tabindex="9"></textarea>
+                            <br>
+                            <label for="annual"><input type="checkbox" id="annual" name="annual" value="annual" tabindex="10">I would like to recieve annual emails from Fort Worth Botanic Garden.</label>
+							<br>
+                            <label for="annual"><input type="checkbox" id="event" name="event" value="event" tabindex="11">I would like to recieve emails about events at Fort Worth Botanic Garden.</label>
+                            <br>
+                            <label for="none"><input type="checkbox" id="none" name="none" value="none" tabindex="12">I would not like to recieve recurring emails from Fort Worth Botanic Garden.</label>
+						<br>	
+							<div class="psubmit"><input type="submit" value="Submit" tabindex="13"><input type="reset" value="Clear form" tabindex="14">
+                                                        </div>
+                            </fieldset>
+						</form>
+					</div>
+				</div>
+				
 			</article>
-
+			
+			
+			
+			
     <footer>
 		<p> 3220 Botanic Garden Blvd Fort Worth, TX 76107 817-463-4160 </p>	
 	</footer>
