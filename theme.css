@@ -314,8 +314,15 @@ input[type=submit], input[type=reset]{
     cursor: pointer;    
 }
 
+input[type=text] {
+    border: dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
 input[type=text], select {
     background-color: #EEFFDD
+    
 }
 
 textarea {
@@ -327,6 +334,110 @@ fieldset {
     background-color: white;
     padding: 15px;
     
+}
+
+.checkfield {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-top:2px;
+    margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.checkfield input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width:0;
+}
+
+.checkmark {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #eeffdd;
+    border: dotted black;
+    border-width: 1px;
+    top: 0;
+    left: 0;
+    
+}
+
+.checkfield:hover input ~ .checkmark {
+    background-color:#FFEA82;
+}
+
+.checkmark:after {
+    content: "✓";
+    position:absolute;
+    display: none;
+}
+
+.checkfield input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.checkmark .checkbox:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #B5B5B5;
+  border-width: 0 3px 3px 0;
+  }
+
+.radiofield {
+    display: block;
+    position:relative;
+    padding-left:35px;
+    margin-top:12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.radiofield input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width:0;
+}
+
+.radio {
+    position: absolute;
+    top:0;
+    left:0;
+    height:25px;
+    width: 25px;
+    background-color: #eeffdd;
+    border-radius: 50%;
+    border:dotted black;
+    border-width: 1px;
+}
+
+.radiofield:hover input ~ .radio{
+    background-color: #FFEA82;
+}
+
+.radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radiofield input:checked ~.radio:after {
+    display:block;
+}
+
+.radiofield .radio:after {
+    top:9px;
+    left:9px;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:black;
 }
 /* contact end */
 

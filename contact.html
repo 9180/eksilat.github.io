@@ -60,11 +60,19 @@
 							<label for="email">Email:</label><input type="text" id="email" name="email" tabindex="4">
 						<br>
 							How would you like for us to respond?
-							<br><label for="phone1"><input type="radio" id="phone1" name="respond" value="phone" tabindex="5">Phone</label>
-							<label for="email1">				<input type="radio" id="email1" name="respond" value="email" tabindex="6">Email
-							</label>
-							<label for="eap"><input type="radio" id="eap" name="respond" value="phoneandemail" tabindex="7">Phone and Email</label>
 							<br>
+                            
+                            <label for="phone1" class="radiofield" >
+                                <input type="radio" id="phone1" name="respond" value="phone" tabindex="5"><span class="radio"></span>Phone</label>
+							
+                            <label for="email1" class="radiofield">
+                                <input type="radio" id="email1" name="respond" value="email" tabindex="6"><span class="radio"></span>Email
+							</label>
+							
+                            <label for="eap" class="radiofield" >
+                                <input type="radio" id="eap" name="respond" value="phoneandemail" tabindex="7"><span class="radio"></span>Phone and Email</label>
+							
+                            <br>
 						
 							<label for="subject">Subject:
                             </label><select id="subject" name="subject" tabindex="8">
@@ -75,12 +83,19 @@
                             <br>
                             <textarea name="content" rows="10" tabindex="9"></textarea>
                             <br>
-                            <label for="annual"><input type="checkbox" id="annual" name="annual" value="annual" tabindex="10">I would like to recieve annual emails from Fort Worth Botanic Garden.</label>
-							<br>
-                            <label for="annual"><input type="checkbox" id="event" name="event" value="event" tabindex="11">I would like to recieve emails about events at Fort Worth Botanic Garden.</label>
+                            
+                            <label for="annual" class="checkfield"><input type="checkbox" id="annual" name="annual" value="annual" tabindex="10"><span class="checkmark"></span>I would like to recieve annual emails from Fort Worth Botanic Garden.</label>
+							
                             <br>
-                            <label for="none"><input type="checkbox" id="none" name="none" value="none" tabindex="12">I would not like to recieve recurring emails from Fort Worth Botanic Garden.</label>
-						<br>	
+                            
+                            <label for="event" class="checkfield"><input type="checkbox" id="event" name="event" value="event" tabindex="11"><span class="checkmark"></span>I would like to recieve emails about events at Fort Worth Botanic Garden.</label>
+                            
+                            <br>
+                            
+                            <label for="none" class="checkfield"><input type="checkbox" id="none" name="none" value="none" tabindex="12"><span class="checkmark"></span>I would not like to recieve recurring emails from Fort Worth Botanic Garden.
+                            </label>
+						
+                            <br>	
 							<div class="psubmit"><input type="submit" value="Submit" tabindex="13"><input type="reset" value="Clear form" tabindex="14">
                                                         </div>
                             </fieldset>
