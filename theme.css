@@ -2,8 +2,11 @@
 /* CSS Document */
 /*960px 12-Column Spans Stylesheet*/
 
+body { 
+    background-color: #786880;
+}
 #page {
-    width: 960px;
+    width: auto;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +51,7 @@ nav {
  
 p {
     padding: 5px;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 .menu {
@@ -59,6 +62,7 @@ p {
 .menu ul {
     background-color: #786880;
     width: auto;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 .menu li {
@@ -84,26 +88,31 @@ p {
 h1 {
     font-size: 30px;
     margin-left: 5px;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h2 {
     margin-left: 10px;
     font-size: 20px;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h3 { margin-left: 10px;
     font-size: 15px;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 
 h4 {   
     font-size: 13px;
     margin-right: 5px;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h5 {   
     font-size: 12px;
     margin-right: 5px;
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 /* grid css */
