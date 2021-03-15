@@ -7,7 +7,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #786880;
 
 }
 
@@ -18,14 +18,13 @@
 
 header {
     width: 960px;
-    background-color: yellow;
     height: auto;
     margin-bottom: 0;align-self:auto;
 	
 }
 
 header img {
-	height: 50px;
+	height: 100px;
 	width: 100%;
     display: block;
     margin-left: auto;
@@ -42,7 +41,10 @@ nav {
     margin-top: -20px;
     height: auto;
     width: 960px;
+    background-color: #786880;
 }
+
+
  
 p {
     padding: 5px;
@@ -54,7 +56,7 @@ p {
 }
 
 .menu ul {
-    background-color: white;    
+    background-color: #786880;
     width: auto;
 }
 
@@ -69,13 +71,13 @@ p {
 .menu a {
     margin: auto;
     padding: 4px;
-    background-color: white;
-    color: black;
+    background-color: #786880;
+    color: ghostwhite;
     text-decoration: none;
 }
 
 .menu a:hover {
-    background-color: white;
+    background-color: #241C29;
 }
 
 h1 {
@@ -133,25 +135,44 @@ h5 {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
 }
+
+/*grid end*/
+/*gallery css*/
+
+.gallery {
+    margin: 10px 40px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    transitio: 1s;
+    padding: 5px;
+}
+
+.gallery img:hover{
+    filter: drop-shadow(4px 4px 6px gray);
+    transform: scale(1.1);
+}
+/*gallery end*/
 
 
 
 footer {
     height: auto;
     font-size: 10px;
-    background-color: red;
+    background-color: #241C29;
     display: flex;
     clear: both;
-    color: black;
+    color: ghostwhite;
 }
 
 footer a {
     margin: auto;
     padding: 4px;
-    background-color: white;
-    color: black;
+    background-color: ghostwhite;
+    color: ghostwhite;
     text-decoration: none;
 }
 
