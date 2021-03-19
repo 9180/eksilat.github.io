@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 /*960px 12-Column Spans Stylesheet*/
+* {
+  box-sizing: border-box;
+}
 
 body { 
     background-color: #786880;
@@ -14,14 +17,6 @@ body {
     background-color: #786880;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-
-.full-height {
-    min-height: 100%;
-}
 
 header {
     width: auto;
@@ -56,6 +51,8 @@ nav {
 p {
     padding: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
+    font-size: 15px;
+    margin-left:15px;
 }
 
 .menu {
@@ -74,7 +71,7 @@ p {
     padding-right: 15px;
     display: inline-flex;
     margin: 4px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .menu a {
@@ -90,32 +87,32 @@ p {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h2 {
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 25px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
-h3 { margin-left: 10px;
-    font-size: 15px;
+h3 { margin-left: 15px;
+    font-size: 20px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 
 h4 {   
-    font-size: 13px;
-    margin-right: 5px;
+    font-size: 15px;
+    margin-left: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h5 {   
     font-size: 12px;
-    margin-right: 5px;
+    margin-left: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
@@ -127,6 +124,7 @@ a {
 .icon {
     width: 100px;
     height: 100px;
+    margin-left:15px;
 }
 
 /* grid css */
@@ -210,34 +208,27 @@ footer a:hover {
     clear:both;
 }
 
+/*mobile view */
 
-/*Desktop View*/
-
-@media (min-width: 412px){
-	
-	body {
-		max-width: 1200px;
-    }
-}
-
-/*Mobile View*/
-
-@media (min-width: 320px){
+@media (min-width: 312px){
 	
 	body {
 		max-width: 412px;
 	}
 	
+
 	h1 {
 		font-size: 40px;
-		margin-bottom: 90px;
-        text-align: center;
-	}
-	
-	h2 {
-		margin-bottom: 16px;
-	}
+		margin-bottom: 10px;
+	}	
 }
 
+/*Desktop View*/
 
-
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+}
