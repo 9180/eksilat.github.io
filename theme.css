@@ -4,14 +4,14 @@
 
 body { 
     background-color: #786880;
+    height: 100%;
 }
+
 #page {
     width: auto;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: #786880;
-
 }
 
 * {
@@ -19,15 +19,19 @@ body {
 }
 
 
+.full-height {
+    min-height: 100%;
+}
+
 header {
-    width: 960px;
+    width: auto;
     height: auto;
     margin-bottom: 0;align-self:auto;
 	
 }
 
 header img {
-	height: 100px;
+	height: 200px;
 	width: 100%;
     display: block;
     margin-left: auto;
@@ -43,7 +47,7 @@ img {
 nav {
     margin-top: -20px;
     height: auto;
-    width: 960px;
+    width: auto;
     background-color: #786880;
 }
 
@@ -60,7 +64,7 @@ p {
 }
 
 .menu ul {
-    background-color: #786880;
+    background-color: #46354E;
     width: auto;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
@@ -76,7 +80,7 @@ p {
 .menu a {
     margin: auto;
     padding: 4px;
-    background-color: #786880;
+    background-color: #46354E;
     color: ghostwhite;
     text-decoration: none;
 }
@@ -113,6 +117,16 @@ h5 {
     font-size: 12px;
     margin-right: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
+}
+
+a {
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
 }
 
 /* grid css */
@@ -197,7 +211,33 @@ footer a:hover {
 }
 
 
+/*Desktop View*/
 
+@media (min-width: 412px){
+	
+	body {
+		max-width: 1200px;
+    }
+}
+
+/*Mobile View*/
+
+@media (min-width: 320px){
+	
+	body {
+		max-width: 412px;
+	}
+	
+	h1 {
+		font-size: 40px;
+		margin-bottom: 90px;
+        text-align: center;
+	}
+	
+	h2 {
+		margin-bottom: 16px;
+	}
+}
 
 
 
