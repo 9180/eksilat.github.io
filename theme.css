@@ -88,17 +88,17 @@ p {
 
 h1 {
     font-size: 35px;
-    margin-left: 5px;
+    margin: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h2 {
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 25px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
-h3 { margin-left: 15px;
+h3 { margin-left: 20px;
     font-size: 20px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
@@ -106,12 +106,12 @@ h3 { margin-left: 15px;
 
 h4 {   
     font-size: 15px;
-    margin-left: 5px;
+    margin: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
 
 h5 {   
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 5px;
     font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
 }
@@ -124,9 +124,12 @@ a {
 .icon {
     width: 100px;
     height: 100px;
-    margin-left:15px;
+    margin: 5px;
 }
 
+.icona {
+	margin-left: 25px;
+}
 /* grid css */
 
 .col-1 {width: 8.33%;}
